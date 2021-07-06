@@ -1,0 +1,694 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 925px) and (max-width: 1024px) {
+    /*===========================================================================
+   Header Start
+   ===============================================================================*/
+    /*================================================================
+ Header Part Css
+ ================================================================*/
+    #header{
+    }
+    #header .small-device{
+        margin-top: 10px;
+    }
+    #header .small-device {
+        font-size: 14px;
+    }
+    #header .small-device .left{
+        padding-left: 15px;
+    }
+    #header .small-device .header-contact-content-text{
+        margin-left: 0;
+        margin-top: 0;
+    }
+    #header .small-device .header-contact-content-text h6{
+        font-size: 14px;
+    }
+    #header .small-device .header-contact-content-text span{
+        font-size: 12px;
+    }
+
+    .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    header .header-nav .navbar{
+        text-align: center;
+    }
+    header .header-nav .navbar .navbar-nav .nav-link {
+        display: inline-block;
+    }
+    header .header-nav .navbar{
+        position: relative;
+    }
+    header .header-nav .navbar .appoint{
+        padding: 10px;
+        transform: skew(0deg);
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    header .header-nav .navbar .appoint .skew{
+        transform: skew(0deg);
+    }
+
+
+    /*===========================================================================
+    Banner Start
+    ===============================================================================*/
+    .banner{
+        padding-top: 20px;
+    }
+    .banner .owl-carousel .item{
+        padding: 0;
+    }
+    .banner .owl-carousel .item .banner-text{
+        margin-top: 50%;
+        transform: translateY(-50%);
+        margin-left: 20px;
+    }
+    .banner .owl-carousel .item  .banner-text h1{
+        font-size: 32px;
+    }
+
+    /*===========================================================================
+Welcome Start
+===============================================================================*/
+    .welcome{
+        padding: 30px;
+    }
+    .welcome .welcome-herder{
+        width: 100%;
+        padding-top: 20px;
+    }
+
+
+    /*===========================================================================
+    Meet Doctor Start
+    ===============================================================================*/
+    .meet-doctor{
+        padding: 30px 0;
+    }
+
+    /*===========================================================================
+    Service Start
+    ===============================================================================*/
+    .service{
+        padding: 30px 0;
+        text-align: left;
+    }
+    .service .service-content .service-content-design img{
+        width: 100%;
+    }
+    .service .service-content .service-content-design h3{
+        margin-top: 0;
+    }
+
+
+    /*===========================================================================
+Pricing Start
+===============================================================================*/
+    .pricing{
+        padding: 30px 0;
+    }
+    .pricing .pricing-content{
+        padding-top: 20px;
+    }
+    .pricing .pricing-content .pricing-content-design {
+        margin-bottom: 20px;
+    }
+    .pricing .pricing-content .pricing-content-design .card .card-header h2{
+        font-size: 26px;
+    }
+    .pricing .pricing-content .pricing-content-design .card .card-body h1{
+        font-size: 32px;
+    }
+
+    /*===========================================================================
+Client Start
+===============================================================================*/
+
+    /*===========================================================================
+Top Footer Start
+===============================================================================*/
+    .top-footer{
+        padding: 30px 0;
+        text-align: left;
+    }
+    .top-footer .top-footer-content .top-footer-contact-right .icon-contact {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row h3 {
+        display: block;
+        margin-right: 0;
+    }
+    .top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row input{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row .btn-signup{
+        margin: 10px auto;
+        display: block;
+        width: 100%;
+    }
+    .top-footer .top-footer-content .top-footer-contact-center .top-footer-contact-center-row .icon-contact {
+        margin-left: 0;
+    }
+    .top-footer .top-footer-content .top-footer-contact-center .top-footer-contact-center-row .icon-contact p{
+        margin-bottom: 0;
+    }
+    .top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row h3 {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row .top-footer-icon {
+        display: block;
+    }
+    .top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row .top-footer-icon a i{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row .top-footer-icon a:nth-last-child(5) {
+        margin-left: 0;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 924px){
+
+    /*===========================================================================
+    Header Start
+    ===============================================================================*/
+    /*================================================================
+ Header Part Css
+ ================================================================*/
+    #header{
+    }
+    #header .small-device{
+        margin-top: 10px;
+    }
+    #header .small-device {
+        font-size: 14px;
+    }
+    #header .small-device .left{
+        padding-left: 15px;
+    }
+    #header .small-device .header-contact-content-text{
+        margin-left: 0;
+        margin-top: 0;
+    }
+    #header .small-device .header-contact-content-text h6{
+        font-size: 14px;
+    }
+    #header .small-device .header-contact-content-text span{
+        font-size: 12px;
+    }
+
+    .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    header .header-nav .navbar{
+        text-align: center;
+    }
+    header .header-nav .navbar .navbar-nav .nav-link {
+        display: inline-block;
+    }
+    header .header-nav .navbar{
+        position: relative;
+    }
+    header .header-nav .navbar .appoint{
+        padding: 10px;
+        transform: skew(0deg);
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    header .header-nav .navbar .appoint .skew{
+        transform: skew(0deg);
+    }
+
+
+    /*===========================================================================
+    Banner Start
+    ===============================================================================*/
+    .banner{
+        padding-top: 20px;
+    }
+    .banner .owl-carousel .item{
+        padding: 0;
+    }
+    .banner .owl-carousel .item .banner-text{
+        margin-top: 10px;
+        height: 5%;
+    }
+    .banner .owl-carousel .item  .banner-text h1{
+        font-size: 24px;
+    }
+    .banner .owl-carousel .owl-nav{
+        display: none;
+    }
+    /*===========================================================================
+Welcome Start
+===============================================================================*/
+    .welcome{
+        padding: 30px;
+    }
+    .welcome .welcome-herder{
+        width: 100%;
+        padding-top: 20px;
+    }
+
+
+    /*===========================================================================
+    Meet Doctor Start
+    ===============================================================================*/
+    .meet-doctor{
+        padding: 30px 0;
+    }
+
+    /*===========================================================================
+    Service Start
+    ===============================================================================*/
+    .service{
+        padding: 30px 0;
+        text-align: left;
+    }
+    .service .service-content .service-content-design img{
+        width: 100%;
+    }
+    .service .service-content .service-content-design h3{
+       margin-top: 0;
+    }
+
+
+    /*===========================================================================
+Pricing Start
+===============================================================================*/
+    .pricing{
+        padding: 30px 0;
+    }
+    .pricing .pricing-content{
+        padding-top: 20px;
+    }
+    .pricing .pricing-content .pricing-content-design {
+        margin-bottom: 20px;
+    }
+    .pricing .pricing-content .pricing-content-design .card .card-header h2{
+       font-size: 26px;
+    }
+    .pricing .pricing-content .pricing-content-design .card .card-body h1{
+       font-size: 32px;
+    }
+
+    /*===========================================================================
+Client Start
+===============================================================================*/
+    .client .client-carousel .owl-nav{
+        display: none;
+    }
+    /*===========================================================================
+Top Footer Start
+===============================================================================*/
+    .top-footer{
+        padding: 30px 0;
+        text-align: left;
+    }
+    .top-footer .top-footer-content .top-footer-contact-right .icon-contact {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row h3 {
+        display: block;
+        margin-right: 0;
+    }
+    .top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row input{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row .btn-signup{
+        margin: 10px auto;
+        display: block;
+        width: 100%;
+    }
+    .top-footer .top-footer-content .top-footer-contact-center .top-footer-contact-center-row .icon-contact {
+        margin-left: 0;
+    }
+    .top-footer .top-footer-content .top-footer-contact-center .top-footer-contact-center-row .icon-contact p{
+        margin-bottom: 0;
+    }
+    .top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row h3 {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row .top-footer-icon {
+        display: block;
+    }
+    .top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row .top-footer-icon a i{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row .top-footer-icon a:nth-last-child(5) {
+        margin-left: 0;
+    }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /*===========================================================================
+    Header Start
+    ===============================================================================*/
+    #header{
+        text-align: center;
+    }
+    #header .small-device{
+        margin-top: 20px;
+    }
+    #header .small-device {
+        font-size: 14px;
+    }
+    #header .small-device .header-contact-content-text{
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    #header .small-device .header-contact-content-text h6{
+        font-size: 16px;
+    }
+    .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    header .header-nav .navbar{
+        text-align: center;
+    }
+    header .header-nav .navbar .navbar-nav .nav-link {
+        display: inline-block;
+    }
+    header .header-nav .navbar .appoint{
+        padding: 10px;
+        transform: skew(0deg);
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    header .header-nav .navbar .appoint .skew{
+        transform: skew(0deg);
+    }
+
+
+    /*===========================================================================
+    Banner Start
+    ===============================================================================*/
+    .banner{
+        padding-top: 20px;
+    }
+    .banner .owl-carousel .item{
+        padding: 0;
+    }
+    .banner .owl-carousel .item .banner-text{
+        margin-top: 10px;
+        height: 5%;
+    }
+    .banner .owl-carousel .item  .banner-text h1{
+        font-size: 24px;
+    }
+    .banner .owl-carousel .owl-nav{
+        display: none;
+    }
+    /*===========================================================================
+Welcome Start
+===============================================================================*/
+    .welcome{
+        padding: 30px;
+    }
+    .welcome .welcome-herder{
+        width: 100%;
+        padding-top: 20px;
+    }
+
+
+    /*===========================================================================
+    Meet Doctor Start
+    ===============================================================================*/
+    .meet-doctor{
+        padding: 30px 0;
+    }
+
+    /*===========================================================================
+    Service Start
+    ===============================================================================*/
+    .service{
+        padding: 30px 0;
+    }
+    /*===========================================================================
+Pricing Start
+===============================================================================*/
+    .pricing{
+        padding: 30px 0;
+    }
+    .pricing .pricing-content{
+        padding-top: 20px;
+    }
+    .pricing .pricing-content .pricing-content-design {
+        margin-bottom: 20px;
+    }
+
+    /*===========================================================================
+Client Start
+===============================================================================*/
+    .client .client-carousel .owl-nav{
+        display: none;
+    }
+    /*===========================================================================
+Top Footer Start
+===============================================================================*/
+    .top-footer{
+        padding: 30px 0;
+    }
+    .top-footer .top-footer-content .top-footer-contact-right .icon-contact {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row input{
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row .btn-signup{
+        margin: 10px auto;
+        display: block;
+        width: 50%;
+    }
+    .top-footer .top-footer-content .top-footer-contact-center .top-footer-contact-center-row .icon-contact {
+        margin-left: 0;
+    }
+    .top-footer .top-footer-content .top-footer-contact-center .top-footer-contact-center-row .icon-contact p{
+        margin-bottom: 0;
+    }
+    .top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row h3 {
+        display: block;
+        margin-right: 0;
+    }
+    .top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row a:nth-last-child(5) {
+        margin-left: 0;
+    }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+    /*===========================================================================
+    Header Start
+    ===============================================================================*/
+    section{
+        text-align: center;
+    }
+    .center-headline {
+        width: 100%;
+    }
+    #header{
+        text-align: center;
+    }
+    #header .small-device{
+        margin-top: 20px;
+    }
+    #header .small-device {
+       font-size: 10px;
+    }
+    #header .small-device .header-contact-content-text{
+       margin-left: 0;
+        margin-top: 5px;
+    }
+    #header .small-device .header-contact-content-text h6{
+       font-size: 11px;
+    }
+    .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    header .header-nav .navbar{
+        text-align: center;
+    }
+    header .header-nav .navbar .navbar-nav .nav-link {
+        display: inline-block;
+    }
+    header .header-nav .navbar .appoint{
+        padding: 10px;
+        transform: skew(0deg);
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    header .header-nav .navbar .appoint .skew{
+        transform: skew(0deg);
+    }
+
+
+    /*===========================================================================
+    Banner Start
+    ===============================================================================*/
+    .banner{
+        padding-top: 20px;
+    }
+    .banner .owl-carousel .item{
+        padding: 0;
+    }
+    .banner .owl-carousel .item .banner-text{
+        margin-top: 10px;
+        height: 5%;
+    }
+    .banner .owl-carousel .item  .banner-text h1{
+      font-size: 24px;
+    }
+    .banner .owl-carousel .owl-nav{
+        display: none;
+    }
+    /*===========================================================================
+Welcome Start
+===============================================================================*/
+    .welcome{
+        padding: 30px;
+    }
+    .welcome .welcome-herder{
+        width: 100%;
+        padding-top: 20px;
+    }
+
+
+    /*===========================================================================
+    Meet Doctor Start
+    ===============================================================================*/
+    .meet-doctor{
+        padding: 30px 0;
+    }
+
+    /*===========================================================================
+    Service Start
+    ===============================================================================*/
+    .service{
+        padding: 30px 0;
+    }
+    /*===========================================================================
+Pricing Start
+===============================================================================*/
+    .pricing{
+        padding: 30px 0;
+    }
+    .pricing .pricing-content{
+        padding-top: 20px;
+    }
+    .pricing .pricing-content .pricing-content-design {
+        margin-bottom: 20px;
+    }
+
+    /*===========================================================================
+Client Start
+===============================================================================*/
+    .client .client-carousel .owl-nav{
+        display: none;
+    }
+    /*===========================================================================
+Top Footer Start
+===============================================================================*/
+    .top-footer{
+        padding: 30px 0;
+    }
+    .top-footer .top-footer-content .top-footer-contact-right .icon-contact {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row input{
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+    .top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row .btn-signup{
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: block;
+        width: 100%;
+    }
+    .top-footer .top-footer-content .top-footer-contact-center .top-footer-contact-center-row .icon-contact {
+        margin-left: 0;
+    }
+    .top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row h3 {
+        display: block;
+        margin-right: 0;
+    }
+    .top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row a:nth-last-child(5) {
+        margin-left: 0;
+    }
+
+}

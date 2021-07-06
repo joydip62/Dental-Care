@@ -1,0 +1,635 @@
+@import "all.min.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-size: 16px;
+    color: #666666;
+}
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 22px;
+}
+.center-headline{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.center-headline h2{
+    margin-bottom: 0;
+}
+.center-headline img{
+    padding: 10px 0;
+}
+
+
+
+
+/*================================================================
+Header Part Css
+================================================================*/
+#header{
+    padding: 20px 0;
+}
+
+#header .header-contact-content i{
+    color: #ff9966;
+    margin-right: 10px;
+
+}
+#header .header-contact-content-text{
+    margin-left: -15px;
+}
+#header .left{
+    margin-left: 0;
+}
+
+#header .header-contact-content-text h6{
+    margin: 0;
+}
+
+#header .header-contact-content .rotate{
+    transform: rotate(-46deg);
+}
+
+header .header-nav .navbar .navbar-nav .nav-item .nav-link{
+    color: #ffffff;
+}
+
+header .header-nav{
+    background-color: #00CCE1;
+}
+header .header-nav .navbar{
+    padding: 0;
+}
+header .header-nav .navbar .navbar-nav .nav-item{
+    margin-right: 20px;
+}
+header .header-nav .navbar .navbar-nav .nav-link{
+    position: relative;
+}
+header .header-nav .navbar .navbar-nav .nav-link::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #f9c321;
+    bottom: 0;
+    left: 0;
+    transition: .3s all ease-in-out;
+}
+
+header .header-nav .navbar .navbar-nav .nav-link:hover::before{
+    width: 100%;
+}
+
+
+header .header-nav .navbar .appoint{
+    background-color: #ff9966;
+    padding: 20px;
+    transform: skew(-20deg);
+    cursor: pointer;
+}
+
+header .header-nav .navbar .appoint .skew{
+    transform: skew(20deg);
+}
+header .header-nav .navbar  .appoint .skew a{
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 10px;
+}
+header .header-nav .navbar .appoint .skew i{
+    color: #ffffff;
+}
+
+
+
+/*===========================================================================
+Banner Start
+===============================================================================*/
+.banner{
+    background-image: url("../img/bg-banner.png");
+    /*height: 530px;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner .owl-carousel .item{
+    padding: 0;
+}
+.banner .owl-carousel .item img{
+    height: 100%;
+}
+
+.banner .owl-carousel .item .banner-text{
+    margin-top: 50%;
+    transform: translateY(-50%);
+}
+.banner .owl-carousel .item  .banner-text h1{
+    background-color: #ff9966;
+    color: #ffffff;
+    padding: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.banner .owl-carousel .item .banner-text h3{
+    background-color: #00CCE1;
+    color: #ffffff;
+    padding: 10px;
+    text-transform: uppercase;
+     display: inline-block;
+}
+.banner .owl-carousel .item .banner-text p{
+    margin-bottom: 25px;
+}
+
+.banner .owl-carousel .item  .banner-text .btn-learn{
+    background-color: #ff9966;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-right: 10px;
+    padding: 10px 20px;
+}
+.banner .owl-carousel .item  .banner-text .btn-book{
+    background-color: #00CCE1;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+
+.banner .owl-carousel .owl-nav .owl-prev {
+    position: absolute;
+    left: 0;
+    top: 43%;
+    opacity: 1;
+    transition: all 0.4s ease-out;
+    background: #00CCE1;
+    width: 40px;
+    cursor: pointer;
+    height: 40px;
+    display: block;
+    border-radius: 0;
+}
+.banner .owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    right: 0%;
+    top: 43%;
+    opacity: 1;
+    transition: all 0.4s ease-out;
+    background: #ff9966;
+    width: 40px;
+    cursor: pointer;
+    height: 40px;
+    display: block;
+    border-radius: 0;
+}
+
+.banner .owl-carousel .owl-nav span{
+    color: #ffffff;
+    font-size: 16px;
+}
+.banner .owl-carousel .owl-dots{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+}
+.banner .owl-theme .owl-dots .owl-dot.active span{
+    background: #ff9966;
+}
+
+/*===========================================================================
+Welcome Start
+===============================================================================*/
+.welcome{
+    padding: 80px 20px 0;
+}
+.welcome .welcome-herder{
+    width: 80%;
+}
+.welcome .welcome-content{
+    padding: 20px;
+}
+.welcome .welcome-content:hover{
+    background: #FFFFFF;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.welcome .welcome-content img{
+    margin-bottom: 10px;
+}
+
+/*===========================================================================
+Meet Doctor Start
+===============================================================================*/
+.meet-doctor{
+    background-color: rgba(236, 236, 236, 0.44);
+    padding: 80px 0;
+}
+.meet-doctor-content{
+    text-align: center;
+    padding-top: 20px;
+}
+.meet-doctor-content figure{
+    border-bottom: 3px solid #00CCE1;
+    margin-bottom: 24px;
+}
+
+
+.meet-doctor-content figure .image{
+    position: relative;
+}
+.meet-doctor-content figure .image img{
+    width: 100%;
+}
+
+.meet-doctor-content figure .image::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(70, 70, 70, 0.74);
+    transition: 0.3s all ease-in-out;
+}
+
+.meet-doctor-content figure:hover .image::before{
+    height: 100%;
+}
+
+.meet-doctor-content figure .image .icon{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f7f8f8;
+    text-align: center;
+    min-width: 40vh;
+    opacity: 0;
+    transition: 0.3s all ease-in-out;
+    font-size: 19pt;
+    font-weight: 600;
+}
+
+.meet-doctor-content figure:hover .image .icon{
+    opacity: 1;
+    top: 50%;
+}
+
+.meet-doctor-content figure .icon i{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.meet-doctor-content figure .icon i:hover{
+    border: 1px solid #ff9966;
+    color: #ffffff;
+    background-color: #ff9966;
+    transition: .3s ease-in-out;
+}
+.meet-doctor-content figure figcaption{
+    background-color: #ffffff;
+    padding: 25px 0;
+}
+.meet-doctor-content figure figcaption h3{
+    margin: 0;
+}
+.meet-doctor-content figure figcaption p{
+    margin: 0;
+}
+
+.meet-doctor-content figure:hover{
+    border-bottom: 3px solid #ff9966;
+}
+
+/*===========================================================================
+Service Start
+===============================================================================*/
+.service{
+    padding: 80px 0;
+}
+.service .service-content{
+    padding-top: 20px;
+}
+.service .service-content .service-content-design{
+    border: 3px solid #cbcbcb;
+    padding: 20px;
+    margin-bottom: 24px;
+    transition: .3s all ease-in-out;
+}
+.service .service-content .service-content-design h3{
+    margin-top: 10px;
+    padding: 0;
+    margin-left: -10px;
+    transition: .3s all ease-in-out;
+}
+.service .service-content .service-content-design p{
+    margin: 10px 0;
+}
+.service .service-content .service-content-design a{
+    text-decoration: none;
+    color: #666666;
+    font-weight: bold;
+    transition: .3s all ease-in-out;
+}
+.service .service-content .service-content-design a i{
+    margin-left: 10px;
+}
+.service .service-content .service-content-design:hover{
+    border: 3px solid #ff9966;
+
+}
+.service .service-content .service-content-design:hover h3, .service .service-content .service-content-design:hover a{
+    color: #ff9966;
+}
+
+/*===========================================================================
+Pricing Start
+===============================================================================*/
+.pricing{
+    background-color: rgba(236, 236, 236, 0.44);
+    padding: 80px 0;
+}
+.pricing .pricing-content{
+    padding-top: 20px;
+}
+.pricing .pricing-content .pricing-content-design{
+    text-align: center;
+}
+.pricing .pricing-content .pricing-content-design .card{
+    border: 3px solid #ffffff;
+    transition: .3s all ease-in-out;
+}
+.pricing .pricing-content .pricing-content-design .card .card-header{
+    background-color: rgba(236, 236, 236, 0.44);
+    padding: 20px 0;
+}
+.pricing .pricing-content .pricing-content-design .card .card-header h2{
+    color: #00CCE1;
+    margin-bottom: 0;
+    transition: .3s all ease-in-out;
+}
+.pricing .pricing-content .pricing-content-design .card .card-header p{
+    margin: 0;
+}
+.pricing .pricing-content .pricing-content-design .card .card-body{
+    color: #00CCE1;
+    transition: .3s all ease-in-out;
+}
+.pricing .pricing-content .pricing-content-design .card .card-body h1{
+    margin: 0;
+}
+.pricing .pricing-content .pricing-content-design .card .card-footer {
+    background-color: rgba(236, 236, 236, 0.44);
+    padding-bottom: 25px;
+}
+.pricing .pricing-content .pricing-content-design .card .card-footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.pricing .pricing-content .pricing-content-design .card .card-footer ul li{
+    margin: 10px 0;
+    color: #666666;
+}
+.pricing .pricing-content .pricing-content-design .card .card-footer ul li:nth-child(5){
+    margin-bottom: 40px;
+}
+.pricing .pricing-content .pricing-content-design .card .card-footer ul a{
+    text-decoration: none;
+    background: #00CCE1;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    transition: .3s all ease-in-out;
+}
+.pricing .pricing-content .pricing-content-design .card:hover{
+    border: 3px solid #ff9966;
+}
+.pricing .pricing-content .pricing-content-design .card:hover .card-header h2{
+    color: #ff9966;
+}
+.pricing .pricing-content .pricing-content-design .card:hover .card-body{
+    color: #ffffff;
+    background-color: #ff9966;
+}
+.pricing .pricing-content .pricing-content-design .card:hover .card-footer ul a{
+    color: #ffffff;
+    background-color: #ff9966;
+}
+
+/*===========================================================================
+Client Start
+===============================================================================*/
+.client{
+    background-image: url("../img/client-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    background-attachment: fixed;
+    position: relative;
+}
+.client .center-headline h2, .client .center-headline p{
+    color: #ffffff;
+}
+.client .client-content .client-carousel{
+    padding-top: 20px;
+}
+.client .client-content .client-carousel .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 13%;
+}
+.client .client-content .client-carousel .item img{
+    width: 10%;
+    margin: 0;
+    display: inline;
+    height: 100%;
+}
+.client .client-carousel .owl-nav .owl-prev {
+    position: absolute;
+    left: 0;
+    top: 35%;
+    opacity: 1;
+    transition: all 0.4s ease-out;
+    background: #00CCE1;
+    width: 40px;
+    cursor: pointer;
+    height: 40px;
+    display: block;
+    border-radius: 0;
+}
+.client .client-carousel .owl-nav .owl-next {
+    position: absolute;
+    right: 0%;
+    top: 35%;
+    opacity: 1;
+    transition: all 0.4s ease-out;
+    background: #ff9966;
+    width: 40px;
+    cursor: pointer;
+    height: 40px;
+    display: block;
+    border-radius: 0;
+}
+
+.client .client-carousel .owl-nav span{
+    color: #ffffff;
+    font-size: 16px;
+}
+
+/*===========================================================================
+Top Footer Start
+===============================================================================*/
+.top-footer{
+    background-image: url("../img/footer-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.top-footer .top-footer-content p{
+    margin-top: 2rem;
+    color: #b4b4b4;
+}
+
+.top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row{
+    margin-bottom: 20px;
+}
+
+.top-footer .top-footer-content .top-footer-contact-right i{
+    color: #00CCE1;
+    text-align: center;
+}
+.top-footer .top-footer-content .top-footer-contact-right .rotate{
+    transform: rotate(-46deg);
+}
+.top-footer .top-footer-content .top-footer-contact-right .icon-contact{
+    margin-left: -20px;
+    color: #b4b4b4;
+}
+.top-footer .top-footer-content .top-footer-contact-right .icon-contact h6{
+    margin-bottom: 2px;
+}
+.top-footer .top-footer-content .top-footer-contact-right .icon-contact p{
+    margin: 0;
+}
+
+.top-footer .top-footer-content .top-footer-contact-center h3{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.top-footer .top-footer-content .top-footer-contact-center .top-footer-contact-center-row{
+    margin-bottom: 20px;
+}
+
+.top-footer .top-footer-content .top-footer-contact-center i{
+    color: #00CCE1;
+    text-align: center;
+}
+.top-footer .top-footer-content .top-footer-contact-center .rotate{
+    transform: rotate(-46deg);
+}
+.top-footer .top-footer-content .top-footer-contact-center .top-footer-contact-center-row .icon-contact{
+    margin-left: -30px;
+    color: #b4b4b4;
+}
+
+.top-footer .top-footer-content .top-footer-contact-center .top-footer-contact-center-row .icon-contact p{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.top-footer .top-footer-content .top-footer-contact-right h3{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row input{
+    display: inline;
+    background: transparent;
+    border: 1px solid #666666;
+    padding: 10px;
+    width: 70%;
+    border-radius: 0;
+    margin: 1rem 0 2rem;
+}
+.top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row .btn-signup{
+    background: #ff9966;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 11px;
+    margin-left: -6px;
+    border-radius: 0;
+    display: inline;
+    width: 28%;
+    border: none;
+}
+.top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row input:focus{
+    color: #999999;
+    box-shadow: none;
+}
+.top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row h3{
+    display: block;
+    margin-bottom: 20px;
+}
+.top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row a{
+    text-decoration: none;
+    margin-left: 8px;
+}
+.top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row a:nth-last-child(5){
+    margin-left: 0;
+}
+
+.top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row a i{
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    background: #323232;
+    transition: .3s all ease-in-out;
+}
+.top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row a i:hover{
+    background: #ff9966;
+}
+.top-footer .top-footer-content .top-footer-contact-right .top-footer-contact-right-row a:hover i{
+    color: #ffffff;
+}
+
+/*===========================================================================
+Main Footer Start
+===============================================================================*/
+footer{
+    background: #161616;
+    text-align: center;
+    padding: 20px 0;
+}
+footer p{
+    margin: 0;
+}
+footer p span{
+    color: #00CCE1;
+}
